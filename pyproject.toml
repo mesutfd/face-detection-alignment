@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "insightface"
+version = "0.7.3"
+description = "InsightFace Python Library"
+authors = ["License"]
+license = "The code of InsightFace Python Library is released under the MIT License. There is no limitation for both academic and commercial usage."
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+insightface = "^0.7.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
